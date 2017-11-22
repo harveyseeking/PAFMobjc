@@ -1,0 +1,20 @@
+//
+//  PAFMPrefixHeader.pch
+//  PAFMiOSDEMO
+//
+//  Created by paglz on 2017/11/22.
+//  Copyright © 2017年 PAFM. All rights reserved.
+//
+
+#ifndef PAFMPrefixHeader_pch
+#define PAFMPrefixHeader_pch
+#define MainScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define MainScreenHeigth [[UIScreen mainScreen] bounds].size.height
+#define A (MainScreenWidth/12.0)
+#define a (MainScreenWidth/60.0)
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PAFMPrefixHeader_pch */

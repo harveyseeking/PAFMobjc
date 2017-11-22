@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AEFB4B1FC556DD003B2FD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AEFB4A1FC556DD003B2FD4 /* AppDelegate.m */; };
+		03AEFB531FC556DD003B2FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AEFB521FC556DD003B2FD4 /* Assets.xcassets */; };
+		03AEFB591FC556DD003B2FD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AEFB581FC556DD003B2FD4 /* main.m */; };
+		F200D2899769F008D7FC8828 /* libPods-PAFMiOSDEMO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2F76E025F80732145C15BB /* libPods-PAFMiOSDEMO.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03AEFB461FC556DD003B2FD4 /* PAFMiOSDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAFMiOSDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AEFB491FC556DD003B2FD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03AEFB4A1FC556DD003B2FD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03AEFB521FC556DD003B2FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AEFB571FC556DD003B2FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AEFB581FC556DD003B2FD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03AEFB701FC5656E003B2FD4 /* PAFMPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAFMPrefixHeader.pch; sourceTree = "<group>"; };
+		6470B14882B8E13E96AADC76 /* Pods-PAFMiOSDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAFMiOSDEMO.release.xcconfig"; path = "Pods/Target Support Files/Pods-PAFMiOSDEMO/Pods-PAFMiOSDEMO.release.xcconfig"; sourceTree = "<group>"; };
+		7B2F76E025F80732145C15BB /* libPods-PAFMiOSDEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PAFMiOSDEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE0953AAA94C0BB673F2083 /* Pods-PAFMiOSDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAFMiOSDEMO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PAFMiOSDEMO/Pods-PAFMiOSDEMO.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AEFB431FC556DD003B2FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F200D2899769F008D7FC8828 /* libPods-PAFMiOSDEMO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AEFB3D1FC556DD003B2FD4 = {
+			isa = PBXGroup;
+			children = (
+				03AEFB481FC556DD003B2FD4 /* PAFMiOSDEMO */,
+				03AEFB471FC556DD003B2FD4 /* Products */,
+				AAC899504380292FCB138F73 /* Pods */,
+				3F386DA06F20FDCFD6E52AF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03AEFB471FC556DD003B2FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AEFB461FC556DD003B2FD4 /* PAFMiOSDEMO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AEFB481FC556DD003B2FD4 /* PAFMiOSDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				03AEFB621FC55988003B2FD4 /* PAFMMainPage */,
+				03AEFB601FC5593B003B2FD4 /* PAFMCommon */,
+				03AEFB5F1FC5593B003B2FD4 /* PAFMLogin */,
+				03AEFB631FC55A40003B2FD4 /* PAFMElecAccunt */,
+				03AEFB611FC5593B003B2FD4 /* PAFMResource */,
+				03AEFB711FC56CF8003B2FD4 /* PCH */,
+				03AEFB491FC556DD003B2FD4 /* AppDelegate.h */,
+				03AEFB4A1FC556DD003B2FD4 /* AppDelegate.m */,
+				03AEFB571FC556DD003B2FD4 /* Info.plist */,
+				03AEFB581FC556DD003B2FD4 /* main.m */,
+			);
+			path = PAFMiOSDEMO;
+			sourceTree = "<group>";
+		};
+		03AEFB5F1FC5593B003B2FD4 /* PAFMLogin */ = {
+			isa = PBXGroup;
+			children = (
+				03AEFB641FC56098003B2FD4 /* controllers */,
+				03AEFB661FC56098003B2FD4 /* modules */,
+				03AEFB651FC56098003B2FD4 /* views */,
+			);
+			path = PAFMLogin;
+			sourceTree = "<group>";
+		};
+		03AEFB601FC5593B003B2FD4 /* PAFMCommon */ = {
+			isa = PBXGroup;
+			children = (
+				03AEFB6F1FC56506003B2FD4 /* security */,
+				03AEFB6E1FC56386003B2FD4 /* component */,
+				03AEFB671FC560F8003B2FD4 /* utils */,
+			);
+			path = PAFMCommon;
+			sourceTree = "<group>";
+		};
+		03AEFB611FC5593B003B2FD4 /* PAFMResource */ = {
+			isa = PBXGroup;
+			children = (
+				03AEFB521FC556DD003B2FD4 /* Assets.xcassets */,
+			);
+			path = PAFMResource;
+			sourceTree = "<group>";
+		};
+		03AEFB621FC55988003B2FD4 /* PAFMMainPage */ = {
+			isa = PBXGroup;
+			children = (
+				03AEFB6B1FC56142003B2FD4 /* controllers */,
+				03AEFB6C1FC56142003B2FD4 /* modules */,
+				03AEFB6D1FC56142003B2FD4 /* views */,
+			);
+			path = PAFMMainPage;
+			sourceTree = "<group>";
+		};
+		03AEFB631FC55A40003B2FD4 /* PAFMElecAccunt */ = {
+			isa = PBXGroup;
+			children = (
+				03AEFB691FC5612C003B2FD4 /* controllers */,
+				03AEFB6A1FC5612C003B2FD4 /* modules */,
+				03AEFB681FC5612B003B2FD4 /* views */,
+			);
+			path = PAFMElecAccunt;
+			sourceTree = "<group>";
+		};
+		03AEFB641FC56098003B2FD4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		03AEFB651FC56098003B2FD4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		03AEFB661FC56098003B2FD4 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		03AEFB671FC560F8003B2FD4 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		03AEFB681FC5612B003B2FD4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		03AEFB691FC5612C003B2FD4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		03AEFB6A1FC5612C003B2FD4 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		03AEFB6B1FC56142003B2FD4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		03AEFB6C1FC56142003B2FD4 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		03AEFB6D1FC56142003B2FD4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		03AEFB6E1FC56386003B2FD4 /* component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		03AEFB6F1FC56506003B2FD4 /* security */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = security;
+			sourceTree = "<group>";
+		};
+		03AEFB711FC56CF8003B2FD4 /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				03AEFB701FC5656E003B2FD4 /* PAFMPrefixHeader.pch */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		3F386DA06F20FDCFD6E52AF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B2F76E025F80732145C15BB /* libPods-PAFMiOSDEMO.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAC899504380292FCB138F73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0953AAA94C0BB673F2083 /* Pods-PAFMiOSDEMO.debug.xcconfig */,
+				6470B14882B8E13E96AADC76 /* Pods-PAFMiOSDEMO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AEFB451FC556DD003B2FD4 /* PAFMiOSDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AEFB5C1FC556DD003B2FD4 /* Build configuration list for PBXNativeTarget "PAFMiOSDEMO" */;
+			buildPhases = (
+				55BE85277D1AB9EDE9A36CA6 /* [CP] Check Pods Manifest.lock */,
+				03AEFB421FC556DD003B2FD4 /* Sources */,
+				03AEFB431FC556DD003B2FD4 /* Frameworks */,
+				03AEFB441FC556DD003B2FD4 /* Resources */,
+				99FBDC6C68E06E9E72EDA072 /* [CP] Embed Pods Frameworks */,
+				395AFE8C1208A4E8DBEF454B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAFMiOSDEMO;
+			productName = PAFMiOSDEMO;
+			productReference = 03AEFB461FC556DD003B2FD4 /* PAFMiOSDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AEFB3E1FC556DD003B2FD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = PAFM;
+				TargetAttributes = {
+					03AEFB451FC556DD003B2FD4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 03AEFB411FC556DD003B2FD4 /* Build configuration list for PBXProject "PAFMiOSDEMO" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AEFB3D1FC556DD003B2FD4;
+			productRefGroup = 03AEFB471FC556DD003B2FD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AEFB451FC556DD003B2FD4 /* PAFMiOSDEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AEFB441FC556DD003B2FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AEFB531FC556DD003B2FD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		395AFE8C1208A4E8DBEF454B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PAFMiOSDEMO/Pods-PAFMiOSDEMO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55BE85277D1AB9EDE9A36CA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99FBDC6C68E06E9E72EDA072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PAFMiOSDEMO/Pods-PAFMiOSDEMO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AEFB421FC556DD003B2FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AEFB591FC556DD003B2FD4 /* main.m in Sources */,
+				03AEFB4B1FC556DD003B2FD4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03AEFB5A1FC556DD003B2FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03AEFB5B1FC556DD003B2FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AEFB5D1FC556DD003B2FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE0953AAA94C0BB673F2083 /* Pods-PAFMiOSDEMO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PAFMiOSDEMO/PCH/PAFMPrefixHeader.pch";
+				INFOPLIST_FILE = PAFMiOSDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PAFM.PAFMiOSDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AEFB5E1FC556DD003B2FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6470B14882B8E13E96AADC76 /* Pods-PAFMiOSDEMO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PAFMiOSDEMO/PCH/PAFMPrefixHeader.pch";
+				INFOPLIST_FILE = PAFMiOSDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PAFM.PAFMiOSDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AEFB411FC556DD003B2FD4 /* Build configuration list for PBXProject "PAFMiOSDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AEFB5A1FC556DD003B2FD4 /* Debug */,
+				03AEFB5B1FC556DD003B2FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AEFB5C1FC556DD003B2FD4 /* Build configuration list for PBXNativeTarget "PAFMiOSDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AEFB5D1FC556DD003B2FD4 /* Debug */,
+				03AEFB5E1FC556DD003B2FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AEFB3E1FC556DD003B2FD4 /* Project object */;
+}
